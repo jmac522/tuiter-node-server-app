@@ -6,7 +6,7 @@ import TuitsController from "./controllers/tuits/tuits-controller.js";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 
-const CONNECTION_STRING = process.env.PORT.DB_CONNECTION
+const CONNECTION_STRING = process.env.DB_CONNECTION
     || 'mongodb://127.0.0.1:27017/tuiter';
 
 
